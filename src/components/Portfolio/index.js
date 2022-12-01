@@ -18,6 +18,7 @@ function Portfolio() {
             <a href= "https://maximos-tech-blog.herokuapp.com/" >Tech Blog</a>
             |
             <a href= "https://github.com/maximtz13/Maximos-Tech-Blog" >  <i class="fa fa-github fa-2x"></i></a>
+            <p>Test</p>
           </div>
         </div>
       </div>
@@ -28,6 +29,7 @@ function Portfolio() {
             <a href= "https://social-collective-app.herokuapp.com/" >Collective Social App</a>
             |
             <a href= "https://github.com/DXHASE/Collective-Social-App" >  <i class="fa fa-github fa-2x"></i></a>
+            <p>Test</p>
           </div>
         </div>
       </div>
@@ -38,6 +40,7 @@ function Portfolio() {
             <a href= "https://maximos-text-editor.herokuapp.com/" >Text Editor</a>
             |
             <a href= "https://github.com/maximtz13/Maximos-Text-Editor" >  <i class="fa fa-github fa-2x"></i></a>
+            <p>Test</p>
           </div>
         </div>
       </div>
@@ -48,6 +51,7 @@ function Portfolio() {
             <a href= "https://maximtz13.github.io/Maximos-Book-Search-Engine/" >Book Search Engine</a>
             |
             <a href= "https://github.com/maximtz13/Maximos-Book-Search-Engine" >  <i class="fa fa-github fa-2x"></i></a>
+            <p>Test</p>
           </div>
         </div>
       </div>
@@ -58,6 +62,7 @@ function Portfolio() {
             <a href= "https://maximtz13.github.io/Maximos-Code-Quiz/" >Code Quiz</a>
             |
             <a href= "https://github.com/maximtz13/Maximos-Code-Quiz" >  <i class="fa fa-github fa-2x"></i></a>
+            <p>Test</p>
           </div>
         </div>
       </div>
@@ -68,6 +73,7 @@ function Portfolio() {
             <a href= "https://maximtz13.github.io/Maximos-Weather-Dashboard/" >Weather Dashboard</a>
             |
             <a href= "https://github.com/maximtz13/Maximos-Weather-Dashboard" >  <i class="fa fa-github fa-2x"></i></a>
+            <p>Test</p>
           </div>
         </div>
       </div>
