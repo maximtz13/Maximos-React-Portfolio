@@ -9,10 +9,10 @@ function Footer () {
                     <a href='https://github.com/maximtz13'><i class="fa fa-github fa-4x"></i></a>
                 </li>
                 <li>
-                    <a href='https://www.linkedin.com/in/chaz-graham-a95a43258'><i class="fa fa-linkedin-square fa-4x"></i></a>
+                    <a href='https://www.linkedin.com/in/maximo-martinez-jr/'><i class="fa fa-linkedin-square fa-4x"></i></a>
                 </li>
                 <li>
-                    <a href='https://stackoverflow.com/users/19429367/chaz-graham'><i class="fa fa-stack-overflow fa-4x"></i></a>
+                    <a href='https://stackoverflow.com/users/19412377/maximtz13'><i class="fa fa-stack-overflow fa-4x"></i></a>
                 </li>
             </ul>
         </footer>
