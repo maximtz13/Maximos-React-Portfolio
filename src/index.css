@@ -1,0 +1,264 @@
+main {
+    margin: 0 auto;
+    max-width: 90%;
+    padding: 50px 30px;
+}
+
+:root {
+    --dark-purple: #140F2Dff;
+    --rich-black-fogra-39: #01020Cff;
+    --lavender-blue: #CCC0EFff;
+    --magnolia: #F6F2FDff;
+    --midnight: #5F2F6Cff;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    line-height: 1.5;
+    font-size: 18px;
+    letter-spacing: .1em;
+    background: var(--dark-purple);
+    color: var(--lavender-blue);
+    font-family: 'Poiret One', cursive;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+h1,
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    margin: 5px 0;
+    line-height: 1.25;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.3rem;
+    margin-top: 0;
+}
+
+a {
+    color: var(--lavender-blue);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--midnight);
+}
+
+header {
+    display: flex;
+    padding: 40px 35px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    top: 0;
+    background-image: url(../src/assets/headerImg/heroImg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.blur {
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    height: 100vh;
+    width: 50%;
+}
+
+li:hover {
+    font-size: 35px;
+}
+
+header a {
+    color: var(--magnolia);
+}
+
+
+button:hover {
+    opacity: .8;
+}
+
+button[disabled] {
+    cursor: default;
+    opacity: .8;
+}
+
+form {
+    width: 40%;
+}
+
+input {
+    font-size: 1rem;
+    padding: 0.25rem;
+    border: 1px solid var(--dark);
+    outline: none;
+    border-radius: 3px;
+    transition: box-shadow 0.2s;
+}
+
+input:focus {
+    border: 1px solid var(--secondary);
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, .5);
+}
+
+nav li {
+    font-size: 30px;
+    display: flex;
+    padding-right: 40px;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    font-size: 1.5rem;
+}
+
+nav a:hover {
+    text-decoration: none;
+}
+
+nav li {
+    cursor: pointer;
+}
+
+textarea {
+    width: 600px;
+    height: 120px;
+    border: 3px solid #cccccc;
+    padding: 5px;
+}
+
+.container {
+    width: 85%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.image {
+    position: relative;
+    width: 500px;
+    margin: 20px;
+    border: solid black;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.img-thumbnail {
+    min-width: 100%;
+    width: 100%;
+    display: block;
+}
+
+.img__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+}
+
+.img__overlay>* {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.img__overlay:hover {
+    opacity: 1;
+}
+
+.img__overlay:hover>* {
+    transform: translateY(0px);
+}
+
+button {
+    background: var(--midnight);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+}
+
+.navActive {
+    color: var(--magnolia);
+}
+
+.resume-li {
+    list-style: circle;
+}
+
+.resume-btn {
+    background: none;
+    color: var(--lavender-blue);
+}
+
+.resume-btn:hover {
+    color: var(--midnight);
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    margin-top: auto;
+}
+
+footer li {
+    padding: 0 20px 10px 0;
+}

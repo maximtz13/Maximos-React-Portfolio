@@ -1,22 +1,22 @@
 import React, { useEffect } from 'react';
 
 function Nav(props) {
-    const {
-        AboutMeSelected,
-        setAboutMeSelected,
-        contactSelected,
-        setContactSelected,
-        portfolioSelected,
-        setPortfolioSelected,
-        ResumeSelected,
-        setResumeSelected
-      } = props;
+  const {
+    AboutMeSelected,
+    setAboutMeSelected,
+    contactSelected,
+    setContactSelected,
+    portfolioSelected,
+    setPortfolioSelected,
+    ResumeSelected,
+    setResumeSelected
+  } = props;
 
-      
+
   useEffect(() => {
-    if(AboutMeSelected === true){
+    if (AboutMeSelected === true) {
       document.title = "About"
-    } else if (contactSelected === true){
+    } else if (contactSelected === true) {
       document.title = "Contact"
     } else if (portfolioSelected === true) {
       document.title = "Portfolio"
@@ -28,8 +28,9 @@ function Nav(props) {
   return (
     <header>
       <h1>
-          Maximo Martinez Jr.
+        Maximo Martinez Jr.
       </h1>
+      <div classname="blur"></div>
       <nav>
         <ul className="flex-row">
           <li className={`${AboutMeSelected && 'navActive'}`}>
@@ -39,11 +40,11 @@ function Nav(props) {
             <span onClick={() => setContactSelected(false, setPortfolioSelected(true), setAboutMeSelected(false), setResumeSelected(false))}>Portfolio</span>
           </li>
           <li className={`${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true, setPortfolioSelected(false), setAboutMeSelected(false),setResumeSelected(false))}>Contact</span>
+            <span onClick={() => setContactSelected(true, setPortfolioSelected(false), setAboutMeSelected(false), setResumeSelected(false))}>Contact</span>
           </li>
           <li className={`${ResumeSelected && 'navActive'}`}>
             <span onClick={() => setContactSelected(false, setPortfolioSelected(false), setAboutMeSelected(false), setResumeSelected(true))}>Resume</span>
-            </li>
+          </li>
         </ul>
       </nav>
     </header>
