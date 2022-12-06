@@ -18,7 +18,7 @@ function Portfolio() {
             <a href= "https://maximos-tech-blog.herokuapp.com/" >Tech Blog</a>
             |
             <a href= "https://github.com/maximtz13/Maximos-Tech-Blog" >  <i class="fa fa-github fa-2x"></i></a>
-            <p>JavaScript, CSS, HandleBars</p>
+            <p>JavaScript, HTML, CSS, HandleBars</p>
           </div>
         </div>
       </div>
