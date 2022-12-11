@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Maximos-React-Portfolio/static/css/main.a8f616bc.css",
+    "main.js": "/Maximos-React-Portfolio/static/js/main.d5e4d555.js",
+    "static/js/787.b0ec6434.chunk.js": "/Maximos-React-Portfolio/static/js/787.b0ec6434.chunk.js",
+    "static/media/profileImg.jpg": "/Maximos-React-Portfolio/static/media/profileImg.ed6a9ae2a968b082212a.jpg",
+    "static/media/heroImg.jpg": "/Maximos-React-Portfolio/static/media/heroImg.b1088eb4b154668cf69e.jpg",
+    "static/media/1.jpg": "/Maximos-React-Portfolio/static/media/1.3417b404a73a9c419998.jpg",
+    "static/media/3.jpg": "/Maximos-React-Portfolio/static/media/3.b698366d0be2b939b535.jpg",
+    "static/media/5.jpg": "/Maximos-React-Portfolio/static/media/5.544d56ff555523744762.jpg",
+    "index.html": "/Maximos-React-Portfolio/index.html",
+    "main.a8f616bc.css.map": "/Maximos-React-Portfolio/static/css/main.a8f616bc.css.map",
+    "main.d5e4d555.js.map": "/Maximos-React-Portfolio/static/js/main.d5e4d555.js.map",
+    "787.b0ec6434.chunk.js.map": "/Maximos-React-Portfolio/static/js/787.b0ec6434.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a8f616bc.css",
+    "static/js/main.d5e4d555.js"
+  ]
+}
