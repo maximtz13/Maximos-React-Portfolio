@@ -6,6 +6,7 @@ import photo2 from '../../assets/projectImg/2.jpg';
 import photo3 from '../../assets/projectImg/3.jpg';
 import photo4 from '../../assets/projectImg/4.jpg';
 import photo5 from '../../assets/projectImg/5.jpg';
+import photo6 from '../../assets/projectImg/6.jpg';
 
 function Portfolio() {
   return (
@@ -74,6 +75,17 @@ function Portfolio() {
             |
             <a href= "https://github.com/maximtz13/Maximos-Weather-Dashboard" >  <i class="fa fa-github fa-2x"></i></a>
             <p>JavaScript, HTML, CSS, utilizes third-party apis</p>
+          </div>
+        </div>
+      </div>
+      <div className='image'>
+        <img className="img-thumbnail" src={photo6} alt="Project-3"/>
+        <div className="img__overlay">
+          <div className="img_gitHub">
+            <a href= "https://github.com/traevaldez/project-3" >Helpful Community</a>
+            |
+            <a href= "https://immense-atoll-42786.herokuapp.com/" >  <i class="fa fa-github fa-2x"></i></a>
+            <p>MERN Stack: MongoDB, Express.js, React, Node.js, Apollo Server, Mongoose, Nodemon, GraphQL, JSON Web Token, BCrypt</p>
           </div>
         </div>
       </div>
